@@ -2,7 +2,7 @@ name: CI-CD
 on: 
   push:
     branches: ["main"]
-  workflow_dispatch:
+  workflow_call:
 jobs:
   CI:
     runs-on: ubuntu-latest
